@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="../CSS/contactstyles.css">
+</head>
+<body>
+    <header class="header">
+        <div><p class="logo"> Volcanodis</p></div>
+        <menu class="menu-container">
+            <ul class="menu">
+                <a href="/index.html"><li class="home">Home</li></a>
+                <a href="./aboutus.html"><li class="aboutus">About Us</li></a>
+                <a href="./photographers.html"><li class="ourphotographers"> Our Photographers</li></a>
+                <a href="./pricing.html"><li class="pricing">Pricing</li></a>
+                <a href="./Tours.html"><li class="ourtours">Our Tours</li></a>
+            </ul>
+        </menu>
+        <menu class="mobile-menu">
+            <i class="bi-list" onclick="showMobileMenu();"></i>
+        </menu>
+        <div class="home-btn-container"><a href="/index.html"><button class="home-btn">Home</button></a></div>
+    </header>
+    <div class="mobilemenu-container">
+        <ul class="mobilemenuoptions show">
+            <a href="/index.html"><li class="home">Home</li></a>
+            <a href="./aboutus.html"><li class="aboutus">About Us</li></a>
+            <a href="./photographers.html"><li class="ourphotographers"> Our Photographers</li></a>
+            <a href="./pricing.html"><li class="pricing">Pricing</li></a>
+            <a href="./Tours.html"><li class="ourtours">Our Tours</li></a>
+            <a href="./contactus.html"><li class="contactus">Contact Us</li></a>
+            <a href="./book.html"><li class="book">Book Now</li></a>
+        </ul>
+    </div>
+    <main>
+    <div class="container">
+        <form action="#" method="post">
+            <h2>Contact Us</h2>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button class="submit" type="submit">Submit</button>
+        </form>
+    </div>
+    </main>
+    <script src="/app.js" defer></script>
+</body>
+</html>
